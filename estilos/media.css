@@ -26,6 +26,9 @@
         width: 500px;
         height: 37px;
         flex-direction: row;
+        text-align: left;
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
     }
 
     .avaliacao img{
