@@ -13,23 +13,73 @@ html, body {
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    background-color: hsl(0, 0%, 100%);
 }
 
 main {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    overflow-x: hidden;
 }
 
 section {
+    width: 300px;
+    height: 700px;
     margin: auto;
-    width: 375px;
-    height: 1530px;
-    padding: 40px;
 }
 
 h1 {
     font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin: 10px;
 }
 
+.summary {
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    margin: 10px;
+}
+
+.avaliacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 68px;
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+}
+
+.comentario {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+ .comentario span {
+    color: hsl(333, 80%, 67%);
+ }
+
+.image {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+p {
+    margin: 10px;
+}
